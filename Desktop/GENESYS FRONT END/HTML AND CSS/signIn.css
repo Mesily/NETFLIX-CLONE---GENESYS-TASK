@@ -1,0 +1,72 @@
+
+body{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    color:white;
+}
+.container {
+    background-image: url(./Landing-page/signinbg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:white
+}
+
+.signin-form {
+    background-color:black;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* button:hover {
+    background-color: #0056b3;
+} */
+
+p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.remember a{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-right: 20px; */
+}
